@@ -4,6 +4,7 @@ from lib.interface.menu import menu
 
 from lib.sistema.casdastrar_pessoa import cadastrar_pessoa
 from lib.sistema.listar_pessoa import listar_pessoa
+from lib.sistema.editar_pessoa import editar_pessoa
 
 import time
 
@@ -23,7 +24,7 @@ def sistema():
         elif opcao == 2:
             cadastrar_pessoa()
         elif opcao == 3:
-            pass
+            editar_pessoa()
         elif opcao == 4:
             pass
         elif opcao == 5:
