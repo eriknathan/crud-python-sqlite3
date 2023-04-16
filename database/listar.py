@@ -1,7 +1,7 @@
 import sqlite3
 
 
-def listar_pessoas():
+def listar():
     con = sqlite3.connect('dbcrudpy.db')
     cur = con.cursor()
 
