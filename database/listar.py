@@ -2,7 +2,7 @@ import sqlite3
 
 
 def listar():
-    con = sqlite3.connect('dbcrudpy.db')
+    con = sqlite3.connect('pessoas.db')
     cur = con.cursor()
 
     cur.execute("SELECT * FROM pessoas")

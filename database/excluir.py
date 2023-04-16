@@ -1,8 +1,8 @@
 import sqlite3
 
 
-def excluir_pessoas(id):
-    con = sqlite3.connect('dbcrudpy.db')
+def excluir(id):
+    con = sqlite3.connect('pessoas.db')
     cur = con.cursor()
 
     cur.execute("DELETE FROM pessoas WHERE id = ?", (id,))
