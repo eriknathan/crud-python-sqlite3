@@ -9,4 +9,3 @@ def excluir(id):
 
     con.commit()
     con.close()
-

@@ -7,4 +7,4 @@ def listar_pessoa():
     cabecalho("PESSOAS CADASTRADAS")
     pessoas = listar()
     for pessoa in pessoas:
-        print(f"ID: {pessoa[0]}{os.linesep}Nome: {pessoa[1]}{os.linesep}Idade: {pessoa[2]}{os.linesep}{linha()}")
+        print(f"ID: {pessoa[0]} | Nome: {pessoa[1]} | Idade: {pessoa[2]}{os.linesep}{linha()}")

@@ -1,4 +1,6 @@
-def leiaInt(msg):
+import os
+
+def leia_int(msg):
     while True:
         try:
             n = int(input(msg))
@@ -22,3 +24,5 @@ def cabecalho(txt):
     print(linha())
 
 
+def limpa_tela():
+    os.system('cls' if os.name == 'nt' else 'clear')
